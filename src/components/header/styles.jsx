@@ -85,6 +85,7 @@ a {
         justify-content:space-between;
         padding-top:0.625rem;
         width:16.25rem;  
+       
     }
 
 }

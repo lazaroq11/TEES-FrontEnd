@@ -1,9 +1,7 @@
 import React from "react"
 import {Main,FormContent} from "../formLeague/styles"
 
-function FormLeague(){
-
-   
+function FormLeague(){   
     return(
            <Main>
                <FormContent>
