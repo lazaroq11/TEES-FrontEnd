@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Main = styled.div`
-    height:100vh;
+   
 
 `;
 export const Content = styled.div`
@@ -35,6 +35,13 @@ a {
         align-items:center;
         justify-content:space-between;
         margin-right:7.5rem;
+        cursor:pointer;
+        transform:scale(1);
+        transition:all ease 0.3s;
+
+            &:hover{
+                transform:scale(1.1);
+            }
 
             &__icon{
              width:6.25rem;
@@ -57,7 +64,6 @@ a {
     display:flex;
     flex-direction:column;
     align-items:right;
-   
     width:12.25rem;
 
     &__btRegisterLeague{
@@ -69,8 +75,8 @@ a {
         background-color: #1DA876;
         border: 1px solid #110338;
         border-radius: 5px;
-        padding-top:14px;
-        padding-left:42px;
+        padding-top:11px;
+        padding-left:38px;
         padding-right:22px;
     
         &:hover{
@@ -83,7 +89,7 @@ a {
         display:flex;
         flex-direction:row;
         justify-content:space-between;
-        padding-top:0.625rem;
+        padding-top:0.925rem;
         width:16.25rem;  
        
     }

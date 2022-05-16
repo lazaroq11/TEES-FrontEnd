@@ -9,7 +9,6 @@ export const FormContent = styled.div`
 background-color: #E5E5E5;
 width:100%;
 height:100vh;
- 
 
 a {
     color:inherit;
@@ -22,6 +21,8 @@ a {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+
 
 .register{
     display:flex;
@@ -75,7 +76,7 @@ a {
                     "category finish";
                     "qntdTeams";
                column-gap:95px;
-               row-gap:43px;
+               row-gap:33px;
            }
 
            &__input{
@@ -103,7 +104,7 @@ a {
 
                &__btRegister{
                  width:288px;
-                 height:64px;
+                 height:50px;
                  background-color:#1DA876;
                  border:1px solid #D7D7D7;
                  border-radius:5px;
@@ -121,9 +122,7 @@ a {
            }
        }
        
-
     }
-
     
 }
 

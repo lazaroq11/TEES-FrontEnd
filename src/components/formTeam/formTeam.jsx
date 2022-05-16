@@ -1,14 +1,17 @@
 import React from "react";
 import {Main, FormContentTeam} from "../formTeam/styles"
+import {Link} from "react-router-dom"
+import Header from "../header/header"
 function FormTeam(){
     return(
         <Main>
+        <Header/>
         <FormContentTeam>
     <main class="register">
         <div class="register__registerContainer">
             <div class="register__registerContainer__registerHeader">
         <h1 class="register__registerContainer__registerHeader__title">Cadastrar Equipes</h1>
-        <a href={<formTeam/>} class="register__registerContainer__registerHeader__btTeam">Cadastrar Jogadores</a>
+        <Link to={<formLeague/>}  class="register__registerContainer__registerHeader__btTeam">Cadastrar Jogadores</Link>
             </div>
         <form class="register__registerContainer__form">
          <div class="register__registerContainer__form__inputs">
@@ -24,6 +27,7 @@ function FormTeam(){
     </main>
       </FormContentTeam>
     </Main>
+    
     )
 }
 

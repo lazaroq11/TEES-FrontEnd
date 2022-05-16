@@ -6,7 +6,8 @@ export const Main = styled.div`
 `;
 
 export const FormContentTeam = styled.div`
-background-color:#E5E5E5;
+
+background-color: #E5E5E5;
 width:100%;
 height:100vh;
 
@@ -15,12 +16,16 @@ a {
     text-decoration:none;
 }
 
-*{
+* {
     padding:0;
     margin:0;
-    -webkit-box-sizing:border-box;
-            box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
+
+
+
+
 
     .register{
         display:flex;
@@ -70,7 +75,7 @@ a {
                             "nameTeam coach";
                             "yearFundation";
                     column-gap:95px;
-                    row-gap:43px;
+                    row-gap:33px;
                 }
 
                 &__input{
@@ -99,7 +104,7 @@ a {
 
                     &__btRegister{
                         width:288px;
-                        height:64px;
+                        height:50px;
                         background-color:#1DA876;
                         border:1px solid #D7D7D7;
                         border-radius:5px;
