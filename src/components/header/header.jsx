@@ -11,7 +11,7 @@ function Header(){
             <Content>
         <main>
             <header class="headerPage">
-            <Link to="/">
+            <Link to="/formLeague">
                 <div class="brand">
                 <img  class="brand__icon" src = {logo} alt="CBV"/>
                 <p class="brand__title">CBV Manager</p>

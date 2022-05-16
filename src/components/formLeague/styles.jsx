@@ -21,9 +21,6 @@ a {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-
-
-
 .register{
     display:flex;
     align-items:center;
